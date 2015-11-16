@@ -4,7 +4,7 @@ var numbers = [30, 11, 40, 23, 12];
 function addList(array){
     var newArr=[];
     var strArr =[" Steph Curry", " Klay Thompson", " Harrison Barnes", " Draymond Green", " Festus Ezili"];
-    for (var i= 0; i < arr.length; i++){
+    for (var i= 0; i < array.length; i++){
         newArr.push(array[i] + strArr[i]);
     }
     return newArr;
